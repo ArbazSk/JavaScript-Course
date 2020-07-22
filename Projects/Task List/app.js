@@ -169,7 +169,7 @@ function filterTask(e){
     // console.log(text);
     document.querySelectorAll('.collection-item').forEach(function(task){
         const item = task.firstChild.textContent;
-        console.log(item);
+        // console.log(item);
         if(item.toLowerCase().indexOf(text) != -1){
             task.style.display = 'block';
         }else {
